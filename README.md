@@ -1,6 +1,6 @@
 # Contra Portfolio Demos
 
-Four honest portfolio demo projects (not client work). Built locally for Contra uploads.
+Six honest portfolio demo projects (not client work). Built locally for Contra uploads.
 
 | Project | Stack | Path |
 |---------|-------|------|
@@ -8,6 +8,8 @@ Four honest portfolio demo projects (not client work). Built locally for Contra 
 | Next SaaS Dashboard | Next.js / TS | `next-saas-dashboard/` |
 | RAG Doc Q&A | Next.js / TS | `rag-doc-qa/` |
 | Automation Webhook | Python FastAPI | `automation-webhook/` |
+| AI Support Desk | Next.js / TS | `demos/ai-support-desk/` |
+| RAG Knowledge Base | Next.js / TS | `demos/rag-knowledge-base/` |
 
 See [INDEX.md](./INDEX.md) for Contra titles, descriptions, and skills.
 
@@ -60,6 +62,32 @@ uvicorn app.main:app --reload --port 8000
 ```
 
 → http://localhost:8000/health and http://localhost:8000/docs
+
+---
+
+---
+
+## 5. AI Support Desk
+
+```bash
+cd demos/ai-support-desk
+npm install
+npm run dev
+```
+
+→ http://localhost:3000 — AI-powered support ticket triage with mock response suggestions.
+
+---
+
+## 6. RAG Knowledge Base
+
+```bash
+cd demos/rag-knowledge-base
+npm install
+npm run dev
+```
+
+→ http://localhost:3000 — semantic search & RAG over knowledge base (mock retrieval).
 
 ---
 

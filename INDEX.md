@@ -49,3 +49,27 @@ A simple Next.js document Q&A demo with in-memory keyword retrieval over sample 
 A Python FastAPI starter for webhooks and lightweight automation. Includes `/health`, an example `/events` receiver with optional shared-secret validation, and an in-memory event log for local demos. Designed as a clear base you can wire to queues, CRM, or billing webhooks.
 
 **Skills:** Python, FastAPI, Webhooks, API Design, Automation
+
+---
+
+## 5. AI Support Desk
+
+**Path:** `/workspace/demos/ai-support-desk`  
+**Title:** AI Support Desk — Smart Ticket Triage
+
+**Description:**  
+A Next.js + TypeScript customer support demo with AI-powered ticket triage and automated response suggestions. Features priority-based categorization, mock AI response generation for common support scenarios, and a polished two-panel interface. Runs fully in mock mode with no API keys required — ready to extend with real LLM integration.
+
+**Skills:** Next.js, TypeScript, React, AI/LLM Integration, Customer Support
+
+---
+
+## 6. RAG Knowledge Base
+
+**Path:** `/workspace/demos/rag-knowledge-base`  
+**Title:** RAG Knowledge Base — Semantic Search Demo
+
+**Description:**  
+A Next.js + TypeScript demonstration of Retrieval-Augmented Generation (RAG) with semantic search over a knowledge base. Features mock keyword-based retrieval that simulates vector embeddings, contextual answer generation from retrieved documents, relevance scoring, and a clean search interface. Includes 12 sample documents across development, AI/ML, and DevOps topics. No vector database or API keys needed — perfect for showcasing RAG architecture.
+
+**Skills:** Next.js, TypeScript, RAG, AI/ML, Semantic Search, Information Retrieval
