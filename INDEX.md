@@ -1,6 +1,6 @@
-# Contra portfolio upload blurbs
+# Portfolio Demo Descriptions
 
-Honest demo projects — **not** paid client work. Use these titles, descriptions, and skills when uploading to Contra.
+Hireable demo projects showcasing AI, full-stack, and SaaS engineering skills. Use these titles, descriptions, and skills for portfolio uploads.
 
 ---
 
@@ -73,3 +73,39 @@ A Next.js + TypeScript customer support demo with AI-powered ticket triage and a
 A Next.js + TypeScript demonstration of Retrieval-Augmented Generation (RAG) with semantic search over a knowledge base. Features mock keyword-based retrieval that simulates vector embeddings, contextual answer generation from retrieved documents, relevance scoring, and a clean search interface. Includes 12 sample documents across development, AI/ML, and DevOps topics. No vector database or API keys needed — perfect for showcasing RAG architecture.
 
 **Skills:** Next.js, TypeScript, RAG, AI/ML, Semantic Search, Information Retrieval
+
+---
+
+## 7. Agent Workflow Studio
+
+**Path:** `/workspace/demos/agent-workflow-studio`  
+**Title:** AI Agent Workflow Builder — Visual Graph Editor
+
+**Description:**  
+A visual workflow builder for AI agents with drag-and-drop nodes (LLM, tool, condition, webhook), real-time execution traces, and Zod schema validation. Built with Next.js App Router, TypeScript, Zustand for state, and React Flow for the graph canvas. Includes mock execution engine with streaming traces and full type safety.
+
+**Skills:** Next.js, TypeScript, React Flow, Zustand, Zod, AI Workflows, Graph Visualization
+
+---
+
+## 8. Realtime Collab Canvas
+
+**Path:** `/workspace/demos/realtime-collab-canvas`  
+**Title:** Collaborative Whiteboard with Live Cursors
+
+**Description:**  
+A real-time collaborative whiteboard with live cursor tracking, presence indicators, and drawing tools (rectangle, circle, line). Features in-memory mock WebSocket for collaboration (no Redis), optimistic updates, reconnection status, and clean Tailwind UI. Production-ready architecture with Zustand state management and type-safe event handling.
+
+**Skills:** Next.js, TypeScript, Zustand, Realtime Collaboration, WebSocket, Canvas Drawing, Optimistic UI
+
+---
+
+## 9. SaaS Usage & Billing Console
+
+**Path:** `/workspace/demos/saas-usage-billing`  
+**Title:** Modern SaaS Billing Dashboard with Usage Meters
+
+**Description:**  
+A production-quality SaaS billing console with plan comparison, usage tracking with charts (Recharts), invoice management, and role-based team administration. Features owner/admin/member permissions, usage warnings, billing cycle tracking, and mock Stripe integration patterns. Built with Next.js, TypeScript, Zustand, and Tailwind CSS.
+
+**Skills:** Next.js, TypeScript, Zustand, Recharts, SaaS Architecture, Billing Systems, RBAC, Dashboard UI

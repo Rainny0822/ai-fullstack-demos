@@ -1,6 +1,6 @@
-# Contra Portfolio Demos
+# AI Full-Stack Portfolio Demos
 
-Six honest portfolio demo projects (not client work). Built locally for Contra uploads.
+Nine production-quality portfolio demo projects showcasing AI, full-stack, and SaaS engineering skills. All demos built with strict TypeScript, modern UI/UX, and zero external dependencies for local development.
 
 | Project | Stack | Path |
 |---------|-------|------|
@@ -10,8 +10,11 @@ Six honest portfolio demo projects (not client work). Built locally for Contra u
 | Automation Webhook | Python FastAPI | `automation-webhook/` |
 | AI Support Desk | Next.js / TS | `demos/ai-support-desk/` |
 | RAG Knowledge Base | Next.js / TS | `demos/rag-knowledge-base/` |
+| **Agent Workflow Studio** | **Next.js / TS / Zustand** | **`demos/agent-workflow-studio/`** |
+| **Realtime Collab Canvas** | **Next.js / TS / Zustand** | **`demos/realtime-collab-canvas/`** |
+| **SaaS Usage & Billing** | **Next.js / TS / Recharts** | **`demos/saas-usage-billing/`** |
 
-See [INDEX.md](./INDEX.md) for Contra titles, descriptions, and skills.
+See [INDEX.md](./INDEX.md) for detailed descriptions and skills.
 
 ---
 
@@ -86,6 +89,42 @@ npm run dev
 ```
 
 → http://localhost:3000 — semantic search & RAG over knowledge base (mock retrieval).
+
+---
+
+## 7. Agent Workflow Studio
+
+```bash
+cd demos/agent-workflow-studio
+npm install
+npm run dev
+```
+
+→ http://localhost:3000 — visual AI workflow builder with LLM, tool, condition, and webhook nodes. Drag-and-drop canvas with real-time execution traces.
+
+---
+
+## 8. Realtime Collab Canvas
+
+```bash
+cd demos/realtime-collab-canvas
+npm install
+npm run dev
+```
+
+→ http://localhost:3000 — collaborative whiteboard with live cursors, presence list, and drawing tools. In-memory mock WebSocket (no server required).
+
+---
+
+## 9. SaaS Usage & Billing
+
+```bash
+cd demos/saas-usage-billing
+npm install
+npm run dev
+```
+
+→ http://localhost:3000 — modern SaaS console with plans, usage meters, invoices, and team management. Role-aware UI with charts.
 
 ---
 
