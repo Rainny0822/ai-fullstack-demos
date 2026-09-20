@@ -65,8 +65,6 @@ uvicorn app.main:app --reload --port 8000
 
 ---
 
----
-
 ## 5. AI Support Desk
 
 ```bash
